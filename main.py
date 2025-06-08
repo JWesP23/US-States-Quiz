@@ -27,7 +27,7 @@ guessing = True
 
 def get_guess():
     #Take and format input
-    answer = screen.textinput(title= f"{num_states_guessed}/50 States Correct", prompt= "Please enter a state name: ").strip()
+    answer = screen.textinput(title= f"{num_states_guessed}/50 States Correct", prompt= "Please enter a state name (Enter \"Exit\" to quit): ").strip()
     return answer.title()
 
 def check_guess(state_name):
