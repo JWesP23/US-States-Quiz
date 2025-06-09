@@ -27,8 +27,10 @@ A Python-based interactive quiz game where users try to name all 50 U.S. states.
 3. Install pandas if it's not already installed:
 
 ```bash
+git clone https://github.com/JWesP23/US-States-Quiz.git
 pip install pandas
-python us_states_quiz.py
+cd US-States-Quiz
+python main.py
 ```
 
 Files: 
