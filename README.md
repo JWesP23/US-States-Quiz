@@ -4,7 +4,7 @@ A Python-based interactive quiz game where users try to name all 50 U.S. states.
 
 ## Preview
 
-![Flashcard Example](States_Quiz_Preview.png)
+![State Quiz Example](States_Quiz_Preview.png)
 
 ## Features
 
