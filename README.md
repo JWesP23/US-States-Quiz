@@ -2,6 +2,10 @@
 
 A Python-based interactive quiz game where users try to name all 50 U.S. states. When a user correctly guesses a state, its name is written on a blank U.S. map at the appropriate location. The game uses the `turtle` graphics module for the interface and `pandas` for data handling.
 
+## Preview
+
+![Flashcard Example](States_Quiz_Preview.png)
+
 ## Features
 
 - Displays a blank U.S. map as the background
@@ -18,18 +22,10 @@ A Python-based interactive quiz game where users try to name all 50 U.S. states.
 
 ## Setup and Running
 
-1. Clone or download the repository.
-
-2. Make sure the following files are present in the same directory as the Python script:
-   - `blank_states_img.gif`: the map image
-   - `50_states.csv`: a CSV containing state names and their corresponding x/y coordinates
-
-3. Install pandas if it's not already installed:
-
 ```bash
 git clone https://github.com/JWesP23/US-States-Quiz.git
-pip install pandas
 cd US-States-Quiz
+pip install pandas
 python main.py
 ```
 
